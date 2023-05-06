@@ -27,7 +27,7 @@ app.listen(process.env.port, async () => {
         console.log(error);
     }
     console.log(
-        `Your server is listening to http://localhost:${process.env.port}`.bgWhite
+        `Your server is running at http://localhost:${process.env.port}`.bgWhite
             .blue
     );
 });
