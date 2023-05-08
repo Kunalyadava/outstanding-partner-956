@@ -4,6 +4,7 @@ const connectDB = require("./configs/db");
 const cors = require("cors");
 const colors = require("colors");
 const cartRoute = require("./routes/cartRoute");
+const userRoute = require("./routes/userRoutes");
 
 const app = express();
 
@@ -11,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-
+app.use("/users", userRoute);
 app.use("/cart", cartRoute);
 //default home
 
