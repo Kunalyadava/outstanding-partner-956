@@ -360,6 +360,8 @@ export default function Homepage(){
 								possimus sunt eius vitae, eum quae necessitatibus exercitationem
 								ut hic cum libero molestiae quidem error? Id a, optio iure
 								aliquam itaque voluptate temporibus?
+							
+							
 							</Text>
 						</ModalBody>
 						<ModalFooter>
