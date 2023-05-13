@@ -8,9 +8,9 @@
 3. Cart, Login, Signup - Ritesh
 
 ### Backend 
-1. Cart Route - Ritesh
-2. User Route - Kunal
-3. Product Route - Preeti
+1. Cart/User Route - Ritesh
+2. Products Route - Kunal
+3. Backend Deployment link : <a href="https://victorious-teal-mite.cyclic.app"></a>
 
 ## Installation
 
