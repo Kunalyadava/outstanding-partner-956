@@ -246,7 +246,7 @@ exports.sendUserPasswordResetEmail = async (req, res) => {
 		//link for user
 		const link = `http://localhost:3000/users/saveforgotpassword/${user._id}/${token}`;
 		let info = await transporter.sendMail({
-			from: "bipinecommerce@gmail.com",
+			from: "ritesh.dltouch.technologies@gmail.com",
 			to: user.email,
 			subject: "LAPDEN - Password Reset Link",
 			html: `<a href=${link}>Click Here</a> to Reset Your Password`,
