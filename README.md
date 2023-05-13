@@ -10,7 +10,7 @@
 ### Backend 
 1. Cart/User Route - Ritesh
 2. Products Route - Kunal
-3. Backend Deployment link : <a href="https://victorious-teal-mite.cyclic.app"></a>
+3. Backend Deployment link : `https://victorious-teal-mite.cyclic.app`
 
 ## Installation
 
