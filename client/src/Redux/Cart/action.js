@@ -57,6 +57,9 @@ export const deleteCartProductsFailureAction = () => {
 };
 
 //delete all
+
+
+
 export const clearCartProductsRequestAction = () => {
 	return { type: CLEAR_CART_PRODUCTS_REQUEST };
 };
@@ -65,11 +68,18 @@ export const clearCartProductsSuccessAction = () => {
 	return { type: CLEAR_CART_PRODUCTS_SUCCESS };
 };
 
+
+
+
 export const clearCartProductsFailureAction = () => {
 	return { type: CLEAR_CART_PRODUCTS_FAILURE };
 };
 
 //update all
+
+
+
+
 export const updateCartItemRequestAction = () => {
 	return { type: UPDATE_CART_ITEMS_PRODUCTS_REQUEST };
 };
