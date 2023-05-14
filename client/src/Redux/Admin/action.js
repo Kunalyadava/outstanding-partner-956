@@ -28,13 +28,16 @@ import {
 import axios from "axios";
 
 // GET PRODUCT ACTION
-
 export const getProductRequest = () => {
   return { type: GET_PRODUCT_REQUEST };
 };
+
+
 export const getProductSuccess = (payload) => {
   return { type: GET_PRODUCT_SUCCESS, payload };
 };
+
+
 export const getProductFailure = () => {
   return { type: GET_PRODUCT_FAILURE };
 };
