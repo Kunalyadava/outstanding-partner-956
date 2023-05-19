@@ -6,7 +6,6 @@ const initialState = {
 	products: [],
 };
 
-
 const reducer = (state = initialState, { type, payload }) => {
 	switch (type) {
 		case GET_PRODUCTS_REQUEST:

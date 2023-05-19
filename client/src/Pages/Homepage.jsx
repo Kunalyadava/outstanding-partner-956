@@ -31,7 +31,7 @@ import homeImage5 from "../Utils/homeImage5.png";
 import homeImage6 from "../Utils/homeImage6.png";
 import home_card_1_image from "../Utils/home_card_1_image.png";
 
-export default function Homepage(){
+const Homepage = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [scrollBehavior] = useState("inside");
 	const btnRef = useRef(null);
@@ -72,7 +72,7 @@ export default function Homepage(){
 						data={"Get our best laptops for less."}
 						button={"Shop Now"}
 						image={home_card_1_image}
-						// button_link="/products"
+						button_link="/products"
 					/>
 					<HomepageCard
 						title={"Student Purchase Program"}
@@ -360,8 +360,6 @@ export default function Homepage(){
 								possimus sunt eius vitae, eum quae necessitatibus exercitationem
 								ut hic cum libero molestiae quidem error? Id a, optio iure
 								aliquam itaque voluptate temporibus?
-							
-							
 							</Text>
 						</ModalBody>
 						<ModalFooter>
@@ -374,4 +372,4 @@ export default function Homepage(){
 	);
 };
 
-// export default Homepage;
+export default Homepage;

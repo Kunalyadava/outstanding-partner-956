@@ -22,7 +22,7 @@ const SubNavbar = () => {
 							For Home
 						</div>
 						<div className="hidden" onClick={() => navigate("/products")}>
-							For Bussiness
+							For Business
 						</div>
 					</div>
 				</div>

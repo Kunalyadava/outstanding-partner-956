@@ -5,26 +5,17 @@ import {
 	GET_PRODUCTS_SUCCESS,
 } from "./actionTypes";
 
-
-
 export const getProductsRequestAction = () => {
 	return { type: GET_PRODUCTS_REQUEST };
 };
-
-
-
 
 export const getProductsSuccessAction = payload => {
 	return { type: GET_PRODUCTS_SUCCESS, payload };
 };
 
-
-
 export const getProductsFailureAction = () => {
 	return { type: GET_PRODUCTS_FAILURE };
 };
-
-
 
 export const getProducts =
 	(params = {}) =>

@@ -8,10 +8,9 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: "ritesh.dltouch.technologies@gmail.com",
-        pass:"dltouchtechnologies",
+        user: "bipinecommerce@gmail.com",
+        pass:"pncyrqdoyqflnmdq",
     },
 });
-
 
 module.exports = transporter;
