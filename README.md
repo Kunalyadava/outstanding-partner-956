@@ -1,16 +1,5 @@
 # Project Name: Outstanding-Partner-956
 
-## Work Distribution 
-
-### Frontend 
-1. Homepage, Navbar, Footer, Carousel, Support - Preeti
-2. Order Confirmation, Product List - Kunal
-3. Cart, Login, Signup - Ritesh
-
-### Backend 
-1. Cart/User Route - Ritesh
-2. Products Route - Kunal
-3. Backend Deployment link : `https://victorious-teal-mite.cyclic.app`
 
 ## Installation
 
