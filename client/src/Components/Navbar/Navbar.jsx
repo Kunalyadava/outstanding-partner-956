@@ -198,7 +198,7 @@ export default function Navbar() {
 												backgroundColor: "#0076cecc",
 											}}
 										>
-											Welcome to LAP-DEN
+											Welcome to DL-Touch
 										</Button>
 									</MenuItem>
 									<MenuItem>

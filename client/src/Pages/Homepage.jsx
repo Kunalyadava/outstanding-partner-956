@@ -280,7 +280,7 @@ export default function Homepage(){
 				>
 					<ModalOverlay />
 					<ModalContent>
-						<ModalHeader>LAP-DEN Cookie Preference</ModalHeader>
+						<ModalHeader>DL-Touch Cookie Preference</ModalHeader>
 						<ModalCloseButton />
 						<ModalBody>
 							<Text>
